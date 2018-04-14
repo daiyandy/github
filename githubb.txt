@@ -1,0 +1,10 @@
+GitHub上传本地文件夹及部署个人网站
+先cd d:xx进文件夹
+然后git init
+git add .
+git commit -m "aaa"(引号里是分支提交的备注)
+git remote add origin https(粘贴地址)
+git pull --rebase origin master
+git push -u origin master
+
+setting=>github pages=>source=>master branch=>Save然后刷新就复制链接
